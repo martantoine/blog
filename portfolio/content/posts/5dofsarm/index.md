@@ -36,7 +36,7 @@ There are 4 push buttons that can be used to manually control each degree of fre
 {{< image src="Vue 3.jpg" >}}
 
 # Robot's ability demonstration
-{{< image src="auto.gif" >}}
+{{< image src="cover.gif" >}}
 
 # Manual control
 {{< image src="manual.gif" >}}

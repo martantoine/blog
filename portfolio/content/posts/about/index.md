@@ -15,7 +15,6 @@ hideComments = false
 
 # Who am I
 My name is Antoine Martin (aka `martantoine`).
-{{< image src="antoine_martin_photo.JPG" >}}
 
 Originaly from France, studies and work brought me so far to many places, namely:
 - **San Francisco - Bay Area**, USA 🇺🇸
@@ -42,7 +41,7 @@ In addition to my main set of skills cited earlier, I have developped secondarie
 | Projects | Date | Status |
 |----------|------|--------|
 | [Quadruped Robot](../quadruped) | 2024-2025 | Ongoing |
-| ~~[Optimizing kinematics performance of the MARS Surgical System]()~~ | March - September 2025 | Completed |
+| [Optimizing kinematics performance of the MARS Surgical System](../optimars/) | March - September 2025 | Completed |
 | ~~[Mouth Cropper]()~~ | July 2025 | Completed |
 | ~~[DuploBuster]()~~ | 2023 | Completed |
 | ~~[Sensor Acquisition Device]()~~ | 2021 | Aborted |
