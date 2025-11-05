@@ -107,9 +107,6 @@ pagination.pagerSize = 5
         #  name = "Showcase"
         #  url = "/showcase"
 
-[[module.mounts]]
-  source = 'images'
-  target = 'static/images'
 
 
 #[module]
