@@ -11,5 +11,5 @@ Originaly from France, studies and work brought me so far to many places, namely
 - **Eindhoven**, Netherlands 🇳🇱
     - *Software Engineer intern @ ASML* - 2024-2025 (6 months)
 - **Lausanne**, Switzerland 🇨🇭
-    - *BSc MicroEngineering* @ EPFL* - 2022
+    - *BSc MicroEngineering @ EPFL* - 2022
     - *MSc Robotics @ EPFL* - 2025

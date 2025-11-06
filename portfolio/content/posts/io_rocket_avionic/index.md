@@ -11,6 +11,7 @@ showFullContent = false
 readingTime = false
 hideComments = false
 +++
+<!--more-->
 # Project Description
 The IO Rocket was a ~ 1.8 meters rocket made by members of the [https://epflrocketteam.ch/our-projects/io/](EPFL Rocket Team - ERT).
 

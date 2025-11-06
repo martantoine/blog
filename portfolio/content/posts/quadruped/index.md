@@ -12,7 +12,7 @@ showFullContent = false
 readingTime = false
 hideComments = false
 +++
-
+<!--more-->
 The design of a quadruped robot with tensegrity joints and McKibbens artificial muscles is a complex challenge, as it involves the intricate task of designing a multi-axis compliant joint integrated with compliant actuation.
 Analytical resolutions, simulations, and real-world measurement were necessary to solve this complex design problem. 
 The demonstrator itself was first tested in Mujoco simulation before actually building it.

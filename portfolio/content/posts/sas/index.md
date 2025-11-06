@@ -11,7 +11,7 @@ showFullContent = false
 readingTime = false
 hideComments = false
 +++
-
+<!--more-->
 # Introduction
 ## Requirements:
 - Support up to 16 sensors simultaneous

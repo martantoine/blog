@@ -11,7 +11,7 @@ showFullContent = false
 readingTime = false
 hideComments = false
 +++
-
+<!--more-->
 # Introduction
 Tripoli rocket certification level 1 is obtained by successfully manufacturing, launching and recovering (using a single parachute) a rocket of a certain power.
 I choose to design the rocket myself for budget and experience reasons.

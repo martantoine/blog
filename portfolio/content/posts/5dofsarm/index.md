@@ -12,7 +12,7 @@ showFullContent = false
 readingTime = false
 hideComments = false
 +++
-		
+<!--more-->		
 # Description
 
 > ## ⚠️ Warning

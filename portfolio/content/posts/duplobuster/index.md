@@ -11,12 +11,12 @@ showFullContent = false
 readingTime = false
 hideComments = false
 +++
-
+<!--more-->
 # Competition Specifications
-The goal of this competition is to create an autonomous robot able to gather Duplo toys and drop them in the collection zone of the 8x8 meters arena that features obstacles and different terrains as shown bellow.
-{{< image src="Arena.png" width="700px">}}
+The goal of this competition is to create an autonomous robot able to gather Duplo toys and drop them in the collection zone of the 8x8 meters arena that features obstacles and different terrains.
 The room have four different regions with different color LEDs in every corner. The robot have 10 minutes inside the room to collect as many Duplo as it can.
 
+{{< image src="Arena.png" width="700px">}}
 # How the robot collects Duplo
 - A claw grips the toy and elevates it into it's compartment
 - Once the Duplo has picked up enough toys it releases them at the dropping zone by opening it's door
