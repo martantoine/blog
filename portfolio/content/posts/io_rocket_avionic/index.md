@@ -3,7 +3,7 @@ title = "Rocket Avionics - EPFL Rocket Team"
 date = "2020-02-22"
 author = ""
 authorTwitter = "" #do not include @
-cover = ""
+cover = "cover.png"
 tags = ["", ""]
 keywords = ["", ""]
 description = ""
@@ -33,7 +33,7 @@ Components:
 - Lora : Radio
 
 {{< image src="render_avionic_pcb.png" >}}
-{{< image src="io_avionic_bay.png" >}}
+{{< image src="cover.png" >}}
 
 # Memories..
 {{< image src="20200222_164829.jpg" >}}

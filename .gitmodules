@@ -5,3 +5,6 @@
 	path = portfolio/public
 	url = git@github.com:martantoine/martantoine.github.io.git
 	branch = master
+[submodule "portfolio/themes/dream"]
+	path = portfolio/themes/dream
+	url = https://github.com/g1eny0ung/hugo-theme-dream.git
