@@ -51,3 +51,9 @@ theme = "dream"
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
   showLastUpdated = false
+  reorderNavItems = ["about", "search", "linkedin", "github", "posts"]
+
+
+[params.navItems]
+github = { href = "https://github.com/martantoine", target = "_blank", icon = "logo-github", title = "GitHub" }
+linkedin = { href = "https://www.linkedin.com/in/antoine-vincent-martin/", target = "_blank", icon = "logo-linkedin", title = "LinkedIn" }
