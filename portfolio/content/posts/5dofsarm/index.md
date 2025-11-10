@@ -1,11 +1,12 @@
 +++
 title = "5 DOFs Robotic Arm"
 date = "2018-06-01"
-#dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
+lastmod = "2025-11-09"
+#dateFormat = "2006-01-02" ## This value can be configured for per-post date formatting
 author = ""
 authorTwitter = "" #do not include @
 cover = "cover.gif"
-tags = ["", ""]
+tags = ["Arduino", "C", "3D Printing", "Solidworks"]
 keywords = ["", ""]
 description = ""
 showFullContent = false
@@ -13,9 +14,9 @@ readingTime = false
 hideComments = false
 +++
 <!--more-->		
-# Description
+## Description
 
-> ## ⚠️ Warning
+> ### ⚠️ Warning
 > **WARNING:** This post describes a project known to be of very low quality. You might experience nausea while reading it.
 >
 > .. This is an old project from high-school. Back then I had no idea about how to properly engineer anything, more specifically:
@@ -30,21 +31,21 @@ It uses one servomotor for each degree of freedom, all controlled and powered by
 
 There are 4 push buttons that can be used to manually control each degree of freedom separately.
 
-# Final result
+## Final result
 {{< image src="Vue 1.jpg" >}}
 {{< image src="Vue 2.jpg" >}}
 {{< image src="Vue 3.jpg" >}}
 
-# Robot's ability demonstration
+## Robot's ability demonstration
 {{< image src="cover.gif" >}}
 
-# Manual control
+## Manual control
 {{< image src="manual.gif" >}}
 Controlled by pressing on those 4 buttons	
 
 {{< image src="Vue 4.jpg" >}}
 
-# A few 3d renders
+## A few 3d renders
 {{< image src="FilaireFrontColored.png" >}}
 {{< image src="FilaireSideColored.png" >}}
 {{< image src="Perspective_1.JPG" >}}

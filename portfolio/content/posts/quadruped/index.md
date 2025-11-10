@@ -1,16 +1,18 @@
 +++
 title = "Quadruped Robot with Tensegrity Joints actuated via Pneumatic Artificial Muscles"
 date = "2024-06-01T18:28:01-07:00"
+lastmod = "2025-11-09"
 #dateFormat = "2006-01-02" # This value can be configured for per-post date formatting
 author = ""
 authorTwitter = "" #do not include @
 cover = "cover.jpeg"
-tags = ["", ""]
+tags = ["Tensegrity", "Pneumatic Soft Actuators", "Mujoco", "RL with Gymnasium, 3D Printing"]
 keywords = ["", ""]
 description = ""
 showFullContent = false
 readingTime = false
 hideComments = false
+highlighted = true
 +++
 <!--more-->
 The design of a quadruped robot with tensegrity joints and McKibbens artificial muscles is a complex challenge, as it involves the intricate task of designing a multi-axis compliant joint integrated with compliant actuation.
@@ -23,3 +25,7 @@ Thanks to the joints' restoring force, the quadruped has the ability to stand by
 So far, the robot has been shown to be capable of walking forward in simulation and on a flat surface with the demonstrator (while being supported by a rail).
 
 {{< video src="walking.mp4" type="video/mp4" >}}
+
+<object data="quadsegrity.pdf" type="application/pdf" width="100%" height="1000px">
+    <p>Unable to display PDF file. <a href="quadsegrity.pdf">Download</a> instead.</p>
+</object>

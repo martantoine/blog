@@ -1,10 +1,11 @@
 +++
 title = "Rocket Avionics - EPFL Rocket Team"
 date = "2020-02-22"
+lastmod = "2025-11-09"
 author = ""
 authorTwitter = "" #do not include @
 cover = "cover.png"
-tags = ["", ""]
+tags = ["Altium", "PCB Assembly"]
 keywords = ["", ""]
 description = ""
 showFullContent = false
@@ -12,7 +13,7 @@ readingTime = false
 hideComments = false
 +++
 <!--more-->
-# Project Description
+## Project Description
 The IO Rocket was a ~ 1.8 meters rocket made by members of the [https://epflrocketteam.ch/our-projects/io/](EPFL Rocket Team - ERT).
 
 It wasn't designed for competition purposed but rather to let us learn new skills as many of us building the rocket were in their first or second year of bachelor.
@@ -26,7 +27,7 @@ Due to the COVID-19 pandemic, the IO project was ended sooner than expected and 
 In fact, the only IO rocket we've launched was really rough, see below ;)
 {{< video src="20200222_170717.mp4" type="video/mp4" >}}
 
-# Some insights of the avionic
+## Some insights of the avionic
 Components:
 - IMU : attitude
 - BMP180 : pressure, altitude, temperature
@@ -36,6 +37,6 @@ Components:
 {{< image src="render_avionic_pcb.png" >}}
 {{< image src="cover.png" >}}
 
-# Memories..
+## Memories..
 {{< image src="20200222_164829.jpg" >}}
 {{< image src="group.jpg" >}}
