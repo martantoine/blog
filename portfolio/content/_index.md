@@ -1,7 +1,5 @@
 +++
 +++
-{{< image src="me.jpg" width="220px" >}}
-
 Hi, I'm Antoine Martin, currently working as a R&D Robotics Engineer in the MedTech startup Levita Magnetics. I am based in Palo Alto, CA.
 
 
