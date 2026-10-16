@@ -1,3 +1,10 @@
-Hi, I'm Antoine Martin, a robotics engineer based in the San Francisco Bay Area.
++++
++++
+{{< image src="me.jpg" width="220px" >}}
 
-This blog is where I write up the robots, rockets, and embedded systems projects I build on the side. See the [about page](/about/) for more on me, or browse the [posts](/posts/).
+Hi, I'm Antoine Martin, currently working as a R&D Robotics Engineer in the MedTech startup Levita Magnetics. I am based in Palo Alto, CA.
+
+
+This website is the place where I talk about projects I worked on. It could be anything: robotics, pure software, electronics, and maybe if I find the time to write about it the more obscure and random projectsI work on. 
+
+Learn more about me  [here](/about/) and browse the [posts](/posts/).
