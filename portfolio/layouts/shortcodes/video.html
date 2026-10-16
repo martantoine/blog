@@ -1,0 +1,8 @@
+{{ $src := .Get "src" }}
+{{ $type := .Get "type" | default "video/mp4" }}
+{{ $res := .Page.Resources.GetMatch $src }}
+<div style="text-align: center; margin: 1.5rem 0;">
+  <video controls style="max-width: 100%;">
+    <source src="{{ with $res }}{{ .RelPermalink }}{{ else }}{{ $src }}{{ end }}" type="{{ $type }}">
+  </video>
+</div>

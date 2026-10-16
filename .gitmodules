@@ -8,3 +8,6 @@
 [submodule "portfolio/themes/dream"]
 	path = portfolio/themes/dream
 	url = https://github.com/g1eny0ung/hugo-theme-dream.git
+[submodule "portfolio/themes/texify3"]
+	path = portfolio/themes/texify3
+	url = https://github.com/michaelneuper/hugo-texify3.git

@@ -1,0 +1,9 @@
+{{ $src := .Get "src" }}
+{{ $width := .Get "width" }}
+{{ $res := .Page.Resources.GetMatch $src }}
+<div style="text-align: center; margin: 1.5rem 0;">
+  <img src="{{ with $res }}{{ .RelPermalink }}{{ else }}{{ $src }}{{ end }}"
+       alt=""
+       loading="lazy"
+       style="max-width: {{ $width | default "100%" }}; height: auto;">
+</div>

@@ -1,59 +1,71 @@
 baseurl = "https://martantoine.github.io/"
 languageCode = "en-us"
-theme = "dream"
+theme = "texify3"
+title = "Antoine Martin's Blog"
+enableRobotsTXT = true
 
-# Required for Chroma and the custom syntax highlighting.
-[markup.highlight]
-  noClasses = false
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  tags = "tags"
+  categories = "categories"
+
 [markup.goldmark.renderer]
   unsafe = true
-
+[markup.goldmark.extensions.passthrough]
+  enable = true
+  [markup.goldmark.extensions.passthrough.delimiters]
+    block = [['$$', '$$'], ['\[', '\]']]
+    inline = [['$', '$'], ['\(', '\)']]
+[markup.highlight]
+  noClasses = false
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 6
+  ordered = false
 
 [params]
-  lightTheme = "emerald"
-  darkTheme = "forest"
+  title = "Antoine Martin's Blog"
   author = "Antoine Martin"
-  avatar = "me.JPG"
+  description = "Antoine Martin's personal blog - robotics, embedded systems, and side projects."
+  keywords = ["robotics", "embedded systems", "antoine martin"]
+  dateFormat = "2 January 2006"
+  emphasisWithDots = true
+  toc = true
+  showWordCount = true
+  showReadingTime = true
+  math = false
+  enableDuckDuckGoSearchBox = true
+  numberedSubtitles = true
 
-  description = "The life record of g1eny0ung is presented here."
-  headerTitle = "Antoine Martin's Blog"
-  #motto = "Not all those wander are lost J.R.R. Tolkien"
+  [params.commentEngine]
+    code = ""
 
-  zenMode = false
+  [params.buymeacoffee]
+    code = ""
 
-  stickyNav = true
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 1
 
-  showTableOfContents = true
-  showSummaryCoverInPost = true
-  imageZoomableInPost = true
-  showPrevNextPost = true
-  # dir name of your main content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
-  # contentTypeName = "posts"
+[[menu.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 2
 
-  # if you set this to 0, only submenu trigger will be visible
-  # showMenuItems = 2
+[[menu.main]]
+  name = "GitHub"
+  url = "https://github.com/martantoine"
+  weight = 3
 
-  # show selector to switch language
-  showLanguageSelector = false
+[[menu.main]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/antoine-vincent-martin/"
+  weight = 4
 
-  # set theme to full screen width
-  fullWidthTheme = false
-
-  # center theme with default width
-  centerTheme = true
-
-  # if your resource directory contains an image called `cover.(jpg|png|webp)`,
-  # then the file will be used as a cover automatically.
-  # With this option you don't have to put the `cover` param in a front-matter.
-  autoCover = true
-
-  # set post to show the last updated
-  # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
-  showLastUpdated = false
-  reorderNavItems = ["about", "search", "linkedin", "github", "posts"]
-
-
-[params.navItems]
-github = { href = "https://github.com/martantoine", target = "_blank", icon = "logo-github", title = "GitHub" }
-linkedin = { href = "https://www.linkedin.com/in/antoine-vincent-martin/", target = "_blank", icon = "logo-linkedin", title = "LinkedIn" }
+[[menu.main]]
+  name = "RSS"
+  url = "/index.xml"
+  weight = 5
