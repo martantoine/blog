@@ -1,0 +1,10 @@
+{{ $page := .Page }}
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 1rem; justify-content: center; margin: 1.5rem 0;">
+  {{ range .Params }}
+  {{ $res := $page.Resources.GetMatch . }}
+  <img src="{{ with $res }}{{ .RelPermalink }}{{ else }}{{ . }}{{ end }}"
+       alt=""
+       loading="lazy"
+       style="flex: 1 1 0; min-width: 0; max-width: 100%; height: auto;">
+  {{ end }}
+</div>
