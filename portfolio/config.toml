@@ -45,6 +45,16 @@ enableRobotsTXT = true
   [params.buymeacoffee]
     code = ""
 
+  [params.sharingbuttons]
+    facebook = false
+    twitter = false
+    email = false
+    linkedin = false
+    reddit = false
+    whatsapp = false
+    hackernews = false
+    telegram = false
+
 [[menu.main]]
   name = "About"
   url = "/about/"
@@ -64,8 +74,3 @@ enableRobotsTXT = true
   name = "LinkedIn"
   url = "https://www.linkedin.com/in/antoine-vincent-martin/"
   weight = 4
-
-[[menu.main]]
-  name = "RSS"
-  url = "/index.xml"
-  weight = 5
