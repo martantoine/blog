@@ -23,24 +23,23 @@ The rest of the pipeline is generic: camera poses, depth estimation and 3D lifti
 
 {{< image src="pipeline.drawio.png" type="png" >}}
 
-## Features: DINOv2 out of the box
-
+## DINOv2 Features
 The default DINOv2 base model already separates tomato plants from their surroundings well. Below, the red cross marks the selected pixel, and the yellow patches are the ones whose features are most similar to it.
 
 {{< image src="dino_PCA_similarity.png" type="png" >}}
 
-## From 2D to 3D
+Bonus: I am the proud father of this tomato plant
 
+## Reconstructing
 COLMAP gives the camera pose for each frame (left), and Depth Anything 3 gives time-coherent depth (right). Each classified patch is projected into 3D using that frame's pose and depth.
 
 {{< images "camera_path.png" "preview_0025.png" >}}
 
-The result is a point cloud of the selected class only:
+The result is a point cloud of the selected class only on top of the magnficient tomato plant:
 
 {{< video src="result.mov" type="video/mp4" >}}
 
 ## Results and next steps
-
 Looking at the 3D output, the main problem is accuracy rather than precision: the extracted points are consistent with each other, but they are not in the right place. Recall is harder to judge by eye, so it is not clear how much of the crop is being missed.
 
 Before iterating toward a better pipeline, the remaining work for this version is to measure these metrics properly.
