@@ -22,7 +22,9 @@ The demonstrator itself was first tested in Mujoco simulation before actually bu
 It was possible to eliminate the need for antagonistic pairs of muscles thanks to the introduction of a restoring force in every joint, hence reducing by a factor of two the number of actuators when compared with the antagonistic approach, eventually making the robot lighter. The pneumatic actuators are controlled by onboard valves and a microcontroller. The tensegrity joints are an assembly of 3d printed thermoplastic polyurethane and 3d printed PETG.
 
 Thanks to the joints' restoring force, the quadruped has the ability to stand by itself without active actuator control. This follows the idea of a compliant quadruped robot with minimal sensory feedback.
-So far, the robot has been shown to be capable of walking forward in simulation and on a flat surface with the demonstrator (while being supported by a rail).
+The robot has been shown to walk forward in simulation and on a flat surface with the demonstrator.\*
+
+\*Note: The video shows the robot walking while supported by a rail. Further work on the feet and a strengthened structure later allowed the robot to walk without a tether.
 
 {{< video src="walking.mp4" type="video/mp4" >}}
 
